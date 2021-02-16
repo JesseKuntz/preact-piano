@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": true,
+    "es6" : true,
+    "node": true
+  },
+  "extends": [
+    "groupon",
+    "preact"
+  ],
+  "rules": {
+    "node/no-unsupported-features/es-syntax": 0,
+    "import/no-extraneous-dependencies": 0
+  }
+}

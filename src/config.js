@@ -1,0 +1,58 @@
+const WHITE_KEYS = [
+  'c1',
+  'd1',
+  'e1',
+  'f1',
+  'g1',
+  'a1',
+  'b1',
+  'c2',
+  'd2',
+  'e2',
+  'f2',
+  'g2',
+  'a2',
+  'b2',
+];
+
+const BLACK_KEYS = [
+  'cs1',
+  'ds1',
+  'fs1',
+  'gs1',
+  'as1',
+  'cs2',
+  'ds2',
+  'fs2',
+  'gs2',
+  'as2',
+];
+
+const KEYS_TO_NOTES = {
+  z: 'c1',
+  x: 'd1',
+  c: 'e1',
+  v: 'f1',
+  b: 'g1',
+  n: 'a1',
+  m: 'b1',
+  s: 'cs1',
+  d: 'ds1',
+  g: 'fs1',
+  h: 'gs1',
+  j: 'as1',
+  Z: 'c2',
+  X: 'd2',
+  C: 'e2',
+  V: 'f2',
+  B: 'g2',
+  N: 'a2',
+  M: 'b2',
+  S: 'cs2',
+  D: 'ds2',
+  G: 'fs2',
+  H: 'gs2',
+  J: 'as2',
+};
+
+export { WHITE_KEYS, BLACK_KEYS, KEYS_TO_NOTES };
