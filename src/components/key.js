@@ -1,12 +1,12 @@
 import { playNote, releaseNote } from '../helpers/note';
 
-function Key(key) {
+function Key({ note, color }) {
   return (
     <img
-      src="../assets/keys/white_key.gif"
-      id={key}
-      // onMouseDown={playNote(key)}
-      // onMouseUp={releaseNote(key)}
+      src={`../assets/keys/${color}_key.gif`}
+      id={note}
+      onMouseDown={() => playNote(note)}
+      onMouseUp={() => releaseNote(note)}
     />
   );
 }
