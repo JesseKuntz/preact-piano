@@ -1,4 +1,13 @@
-# Preact Piano
+<h1 align="center">
+  Preact Piano
+</h1>
 
-If you want to see some instructions on how to use the keyboard to play, you can look in the [python piano how-to-play](https://github.com/JesseKuntz/my-piano#how-to-play) section.
+### [👉 Full Project Description 👈](https://jessekuntz.github.io/?project=python-piano)
 
+## Running Things
+
+```
+npm i
+
+npm run dev
+```
